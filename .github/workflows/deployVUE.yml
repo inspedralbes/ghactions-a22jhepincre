@@ -7,7 +7,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: cd web2 && npm install
-      - run: cd web2 npm run build --if-present
+      - run: cd web2 npm && run build --if-present
 
       # 👇 Verificar si 'dist' existe
       - run: ls -la dist || echo "⚠️ Directori 'dist' no existeix!"
