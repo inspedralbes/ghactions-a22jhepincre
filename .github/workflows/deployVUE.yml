@@ -15,7 +15,7 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: app-build
-          path: dist
+          path: web2/dist
 
   Pujar-a-produccio-amb-SCP:
     runs-on: ubuntu-latest
